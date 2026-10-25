@@ -45,6 +45,12 @@ df['Product_Category']=df['Product_Category'].apply(lambda x:x.title())
 
 df['Payment_Method']=df['Payment_Method'].apply(lambda x:x.title())
 
+df['Region']=df['Region'].apply(lambda x:x.title())
+df['Region']=df['Region'].replace({
+    'Northeast': 'North East',
+    'Nrw': 'North Rhine-Westphalia'
+})
+
 print(df.duplicated().sum())
 df=df.drop_duplicates()
 
