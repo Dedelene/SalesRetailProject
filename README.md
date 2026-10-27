@@ -2,7 +2,7 @@
 
 ## Description
 
-I developed this project as a hands-on exercise in data analytics and to familiarize myself with handling and interpreting realistic business data.
+The purpose of this project is to analyze raw retail data to extract significant business insights, enabling the company to make decisions and maximize its overall profit.
 The dataset, sourced from Kaggle, contains synthetic retail sales records and covers areas like customers, products, pricing, discounts, profit, location, sales and revenue. It contains 18,045 records and 36 features and has some missing or inconsistent values.
 
 #### Project Workflow:
@@ -73,11 +73,11 @@ The company needs to stock up on inventory early before winter to handle the hig
 
 ## Conclusion
 
-This project demonstrates a complete data analytics workflow, transforming raw, messy data into actionable business strategies. By combining Python's processing power with Power BI's visual storytelling and Prophet's temporal forecasting, I identified key growth areas useful for the company.
+By following this analytical workflow, the company can gain a clear understanding of its current performance and evaluate its options for future growth.
 
 ## How to Run the Project
 
-1. Clone this repository to your local machine using git clone.
+1. Clone this repository using git clone.
 
 2. Open the project folder in Visual Studio Code.
 
